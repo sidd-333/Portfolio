@@ -54,7 +54,7 @@
       height: 40vh;
     }
     #profile {
-      height: 83vh;
+      height: 75vh;
       margin-bottom: 0;
     }
     article {
@@ -88,7 +88,7 @@
       text-align: center;
     }
     .section__pic-container {
-      width: auto;
+       width: auto;
       height: 46vw;
       justify-content: center;
     }
@@ -102,4 +102,9 @@
       text-align: justify;
     }
   }
-  
+  @media screen and (max-width: 320px){
+    #profile {
+      height: 83vh;
+      margin-bottom: 0;
+    }
+  }
